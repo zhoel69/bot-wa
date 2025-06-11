@@ -1,0 +1,36 @@
+{
+  "name": "bot-wa",
+  "version": "1.0.0",
+  "description": "**NinaBot** adalah bot WhatsApp interaktif karya `zhoel69`, berisi permainan logika, fakta unik, tips, dan jokes ringan yang menyenangkan.",
+  "main": "NinaBot.js",
+  "scripts": {
+    "start": "node NinaBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "express",
+    "qrcode",
+    "ninabot",
+    "zhoel69"
+  ],
+  "author": "zhoel69 <strongwarrior45@gmail.com> (https://github.com/zhoel69)",
+  "license": "Proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhoel69/bot-wa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhoel69/bot-wa/issues"
+  },
+  "homepage": "https://github.com/zhoel69/bot-wa#readme",
+  "type": "commonjs",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.17",
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4",
+    "pino": "^8.17.0"
+  }
+}
