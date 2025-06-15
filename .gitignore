@@ -1,0 +1,22 @@
+# Folder data login WhatsApp (jangan pernah dipush!)
+auth/
+
+# Folder hasil install npm (akan dibuat otomatis saat `npm install`)
+node_modules/
+
+# File log/error
+*.log
+
+# File cache/editor
+.DS_Store
+*.swp
+*.swo
+
+# File konfigurasi lingkungan (jika digunakan)
+.env
+
+# File backup sementara
+*.bak
+
+# File hasil obfuscate
+*-obf.js
